@@ -1,0 +1,21 @@
+
+/**
+ * Mojn logo.
+ */
+
+.logo[data-logo="Mojn"] {
+  width: 3.4303432494279176em;
+}
+
+.logo[data-logo="Mojn"] > * {
+  background-image: url(images/logo.svg);
+  margin: .175em 0 -.025em 0;
+}
+
+.logo[data-logo="Mojn"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Mojn"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
